@@ -56,11 +56,11 @@ class DBHelper(context: Context, factory: SQLiteDatabase.CursorFactory?):
         }
 
         companion object {
-            private val DATABASE_NAME = "db1"
+            private val DATABASE_NAME = "db"
             private val DATABASE_VERSION = 1
-            val TABLE_NAME = "daterange_table1"
-            val ID_COL = "id1"
-            val FIRST_DATE = "firstdate1"
-            val SECOND_DATE = "seconddate1"
+            val TABLE_NAME = "date_table"
+            val ID_COL = "id"
+            val FIRST_DATE = "firstdate"
+            val SECOND_DATE = "seconddate"
         }
 }
